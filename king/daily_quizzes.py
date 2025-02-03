@@ -28,3 +28,20 @@ def my_favorite_math():
 
 my_favorite_math()
     
+
+# Quiz, Feb 3, 2025
+def my_little_function(a, b, c):
+  a = b + c
+  c = 2 * a
+  b = c / b
+  print("little: ", a, b, c)
+
+def my_big_function(a, b, c):
+  a = a + b + c
+  my_little_function(a, b, c)
+  print("big: ", a, b, c)
+
+def main():
+  my_big_function(5, 2, 6)
+
+main()
