@@ -1,4 +1,4 @@
-# Quiz, Jan 27
+# Quiz 1, Jan 27
 user_input = input("Give me a number between 1 and 100: ") # just make up a number, assume it is an integer
 print("You gave:", user_input)
 print("Now watch this:")
@@ -10,7 +10,7 @@ tens = ones
 print("Now we have", tens, "and", ones)
 
 
-# Quiz, Jan 29
+# Quiz 2, Jan 29
 def my_favorite_math():
   x = 10
   y = 22
@@ -29,7 +29,7 @@ def my_favorite_math():
 my_favorite_math()
     
 
-# Quiz, Feb 3, 2025
+# Quiz 3, Feb 3, 2025
 def my_little_function(a, b, c):
   a = b + c
   c = 2 * a
