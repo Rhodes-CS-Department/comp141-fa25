@@ -68,3 +68,23 @@ def main():
     draw_thing(100, 100)
     
 main()
+
+
+# Quiz 5, Feb 10, 2025
+## HINT: there are two erors:
+### one "logical" error, preventing the program from doing "what I want" but otherwise invisible
+### and one "semantic" error, causing the program to "throw an exception" (if the program ran)
+## can you find both?
+def tiny_helper_function_1(x, y):
+  return 2 * x - y
+
+def tiny_helper_function_2(x, y):
+  return x * y + 1
+  
+def medium_helper_function(x, y):
+  return tiny_helper_function_1(x, y) / tiny_helper_function_2(x, y)
+
+def main():
+  a = medium_helper_function(0, 0)
+  c = medium_helper_function(1, 1)
+  b = medium_helper_function(-1, 1)
