@@ -88,3 +88,15 @@ def main():
   a = medium_helper_function(0, 0)
   c = medium_helper_function(1, 1)
   b = medium_helper_function(-1, 1)
+
+# Quiz 6, Feb 14, 2025
+def countdown(n):
+  while n > 0:
+    print(n, " ticks left!")
+    n -= 1
+
+def main():
+  countdown(4)
+  countdown(0)
+
+main()
