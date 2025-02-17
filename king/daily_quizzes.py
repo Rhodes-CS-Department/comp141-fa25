@@ -100,3 +100,12 @@ def main():
   countdown(0)
 
 main()
+
+# Quiz 7, Feb 17, 2025
+def main():
+  count = 3
+  while count <= 21:
+      print(count)
+      count = count + 3
+
+main()
