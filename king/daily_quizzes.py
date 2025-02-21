@@ -113,7 +113,7 @@ main()
 # Quiz 8, Feb 21, 2024
 def helper1(x):
   if x < 12:
-    return 0
+    return 10
   return 100
 
 def helper2(y):
@@ -123,13 +123,13 @@ def helper2(y):
   return result
 
 def main():
-  a = 5
-  b = 3
+  a = 14
+  b = 4
   iterations = 0
   mystery = True
   while mystery:
-    a += 3
-    b += 5
+    a -= 2
+    b += 3
     iterations += 1
     mystery = helper1(a) > helper2(b)
   print(iterations)
