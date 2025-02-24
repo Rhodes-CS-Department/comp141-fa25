@@ -109,3 +109,29 @@ def main():
       count = count + 3
 
 main()
+
+# Quiz 8, Feb 21, 2024
+def helper1(x):
+  if x < 12:
+    return 10
+  return 100
+
+def helper2(y):
+  result = 0
+  while result < 9:
+    result += y
+  return result
+
+def main():
+  a = 14
+  b = 4
+  iterations = 0
+  mystery = True
+  while mystery:
+    a -= 2
+    b += 3
+    iterations += 1
+    mystery = helper1(a) > helper2(b)
+  print(iterations)
+
+main()
