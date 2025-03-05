@@ -110,7 +110,7 @@ def main():
 
 main()
 
-# Quiz 8, Feb 21, 2024
+# Quiz 8, Feb 21, 2025
 def helper1(x):
   if x < 12:
     return 10
@@ -135,3 +135,29 @@ def main():
   print(iterations)
 
 main()
+
+# Quiz 9, Mar 3, 2025
+def get_valid_input():
+  valid = False
+  while not valid:
+    response = input("Say a color!")
+    if response == "red" or response == "green" or response == "blue":
+      valid = True
+  return response
+
+def spell_color():
+   color = get_valid_input()
+   for letter in color: # this is new! can you guess what it does?
+     print(letter, end = "!")
+
+spell_color()
+
+# Quiz 10, Mar 5, 2025
+def magic_spell(n):
+  for i in range(n):
+    for j in range(i + 1):
+     print('-', end='')
+    print("X")
+
+magic_spell(3)
+magic_spell(4)
