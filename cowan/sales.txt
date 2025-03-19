@@ -1,0 +1,6 @@
+This is the header for the sales.txt - 
+33.99
+25.95
+17.50
+13.50
+45.45
