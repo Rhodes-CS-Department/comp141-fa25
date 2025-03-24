@@ -161,3 +161,19 @@ def magic_spell(n):
 
 magic_spell(3)
 magic_spell(4)
+
+# Quiz 10, Mar 23, 2025
+"my_data.txt"
+'''
+Hello class!
+It is March 23.
+I hope that we all learn something new!
+'''
+file = open("my_data.txt", "r")
+for line in file:
+  parts = line.split("a")
+  print(line[3], line[5], line[7])
+file.close()
+file = open("my_data.txt", "w")
+file.write("Goodbye!")
+file.close()
