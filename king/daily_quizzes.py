@@ -162,11 +162,11 @@ def magic_spell(n):
 magic_spell(3)
 magic_spell(4)
 
-# Quiz 10, Mar 23, 2025
+# Quiz 11, Mar 24, 2025
 "my_data.txt"
 '''
 Hello class!
-It is March 23.
+It is March 24.
 I hope that we all learn something new!
 '''
 file = open("my_data.txt", "r")
@@ -177,3 +177,19 @@ file.close()
 file = open("my_data.txt", "w")
 file.write("Goodbye!")
 file.close()
+
+# Quit 12, Mar 28, 2025
+def encode(s):
+  result = ""
+  for i in range(len(s)):
+    if s[i].isalpha():
+      result += "."
+    elif s[i].isdigit():
+      result += "-"
+    else:
+      result += " "
+  return result
+
+encode("user!23")
+encode("p4ss-w0rd")
+encode("137 cats")
