@@ -178,7 +178,7 @@ file = open("my_data.txt", "w")
 file.write("Goodbye!")
 file.close()
 
-# Quit 12, Mar 28, 2025
+# QuiZ 12, Mar 28, 2025
 def encode(s):
   result = ""
   for i in range(len(s)):
@@ -193,3 +193,11 @@ def encode(s):
 encode("user!23")
 encode("p4ss-w0rd")
 encode("137 cats")
+
+# Quiz 13, Mar 31, 2025
+def decode(s):
+  t = s[2:7]
+  r = s[7::2]
+  return t + r
+
+print(decode("xyhappysjpirwimnlgt"))
