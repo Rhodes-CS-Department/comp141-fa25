@@ -201,3 +201,14 @@ def decode(s):
   return t + r
 
 print(decode("xyhappysjpirwimnlgt"))
+
+# Quiz 14, Apr 2, 2025
+def list_games(a, b):
+  list_a = [7] * a
+  list_b = [b, b, b]
+  list_c = list_a + list_b
+  list_c[a] = 'x'
+  list_c[b] = 'y'
+  return(list_c)
+
+print(list_games(4, 2))
