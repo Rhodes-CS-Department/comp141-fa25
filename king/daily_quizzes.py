@@ -223,6 +223,19 @@ def pattern(n):
 
 pattern()
 
+def copy_test():
+  a = [10, 20, 30, 40]
+  b = a
+  c = a[:]
+  a[0] = 5
+  b[3] = 15
+  c[2] = 25
+  print("a", a)
+  print("b", b)
+  print("c", c)
+
+copy_test()
+
 def process_file(filename):
   file = open(filename, 'r')
   for line in file:
