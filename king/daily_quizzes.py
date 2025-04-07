@@ -212,3 +212,31 @@ def list_games(a, b):
   return(list_c)
 
 print(list_games(4, 2))
+
+
+# Extra Test Practice
+def pattern(n):
+  for i in range(n):
+    for j in range(2 * i):
+      print(i, end = " ")
+    print()
+
+pattern()
+
+def copy_test():
+  a = [10, 20, 30, 40]
+  b = a
+  c = a[:]
+  a[0] = 5
+  b[3] = 15
+  c[2] = 25
+  print("a", a)
+  print("b", b)
+  print("c", c)
+
+copy_test()
+
+def process_file(filename):
+  file = open(filename, 'r')
+  for line in file:
+    print(line)
