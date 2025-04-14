@@ -236,7 +236,14 @@ def copy_test():
 
 copy_test()
 
-def process_file(filename):
-  file = open(filename, 'r')
-  for line in file:
-    print(line)
+# Quiz 15, Apr 14, 2025
+def mystery(a, b):
+  for i in range(len(b)):
+    if a[i] == b[i]:
+      print(b[i] + a[i])
+    else:
+      print(b[i] - a[i])
+
+x = [5, 10, 15, 20]
+y = [12, 10, 24, 20]
+mystery(x, y)
