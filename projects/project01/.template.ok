@@ -3,7 +3,7 @@
   "endpoint": "<#endpoint#>/project01",
   "src": [
     "P1.ipynb",
-    "time_to_drop.py"
+    "consumption.py"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
