@@ -3,7 +3,7 @@
   "endpoint": "<#endpoint#>/project02",
   "src": [
     "P2.ipynb",
-    "payday.py"
+    "consumption.py"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
