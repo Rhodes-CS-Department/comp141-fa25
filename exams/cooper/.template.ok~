@@ -1,15 +1,7 @@
 {
-  "name": "Lab 03",
-  "endpoint": "<#endpoint#>/lab03",
+  "name": "Midterm 1"
+  "endpoint": "<#endpoint#>/midterm1",
   "src": [
-    "lab03.ipynb"
-  ],
-  "tests": {
-      "tests/q*.py": "ok_test"
-  },
-  "protocols": [
-      "file_contents",
-      "grading",
-      "backup"
+    "midterm1.ipynb"
   ]
 }

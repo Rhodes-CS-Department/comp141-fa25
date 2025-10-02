@@ -3,5 +3,13 @@
   "endpoint": "<#endpoint#>/midterm1",
   "src": [
     "midterm1.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
   ]
 }
