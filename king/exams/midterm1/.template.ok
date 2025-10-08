@@ -2,7 +2,7 @@
   "name": "Midterm 1 Alternative",
   "endpoint": "<#endpoint#>/midterm1a",
   "src": [
-    "midterm1.ipynb"
+    "midterm1a.ipynb"
   ],
   "tests": {
   },
