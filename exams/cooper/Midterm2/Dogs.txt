@@ -1,0 +1,20 @@
+Bailey;Golden Retriever;5
+Luna;Siberian Husky;3
+Max;Beagle;7
+Daisy;Border Collie;2
+Cooper;Boxer;6
+Ruby;Australian Shepherd;4
+Milo;French Bulldog;1
+Sadie;Labrador Retriever;8
+Finn;Cocker Spaniel;5
+Olive;Shih Tzu;9
+Tucker;German Shepherd;3
+Rosie;Miniature Poodle;10
+Winston;Great Dane;4
+Chloe;Pembroke Welsh Corgi;6
+Bentley;Dachshund;11
+Nala;Vizsla;2
+Murphy;Bernese Mountain Dog;7
+Piper;Boston Terrier;3
+Hank;English Bulldog;9
+Zoe;Jack Russell Terrier;5
