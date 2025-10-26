@@ -1,8 +1,8 @@
 {
-  "name": "Midterm1"
-  "endpoint": "<#endpoint#>/midterm1",
+  "name": "Midterm2",
+  "endpoint": "<#endpoint#>/midterm2",
   "src": [
-    "midterm1.ipynb"
+    "midterm2.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
