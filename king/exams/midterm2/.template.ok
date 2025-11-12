@@ -1,0 +1,14 @@
+{
+  "name": "Midterm 2",
+  "endpoint": "<#endpoint#>/midterm2",
+  "src": [
+    "midterm2.ipynb"
+  ],
+  "tests": {
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
