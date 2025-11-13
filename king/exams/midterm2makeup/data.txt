@@ -1,7 +1,5 @@
-Cardinals;15
-Bulldogs;20
-Lynxes;17
-Sox;12
-Salamanders;24
-Slugs;2
-Nighthawks;19
+Jace/2/31
+Glenn/10/32
+Jessie/3/31
+Shay/12/29
+Grace/8/29
