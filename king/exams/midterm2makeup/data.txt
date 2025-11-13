@@ -1,0 +1,7 @@
+Cardinals;15
+Bulldogs;20
+Lynxes;17
+Sox;12
+Salamanders;24
+Slugs;2
+Nighthawks;19
