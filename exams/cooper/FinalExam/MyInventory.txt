@@ -1,0 +1,30 @@
+Dish Towel;10
+Tablecloth;4
+Pillow Case;9
+Paper Towel;6
+Toilet Paper Roll;12
+Dish Soap;2
+Sponge;4
+Laundry Detergent Pod;15
+Trash Bag;10
+Light Bulb;5
+Hand Soap;3
+Battery (AA);8
+Cleaning Wipe;7
+Sandwich Bag;12
+Aluminum Foil;2
+Plastic Cup;18
+Napkin;14
+Shampoo Bottle;3
+Conditioner Bottle;2
+Toothpaste Tube;4
+Bar Of Soap;6
+Scissors;3
+Dryer Sheet;16
+Candle;3
+Water Bottle;20
+Coffee Filter;10
+Pen;9
+Notepad;4
+Backpack;7
+Headphones;5
